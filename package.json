@@ -1,5 +1,5 @@
 {
-    "name": "three",
+    "name": "babylonjs",
     "version": "1.0.0",
     "private": true,
     "scripts": {
@@ -12,7 +12,7 @@
         "babylonjs-loaders": "^4.1.0",
         "core-js": "^2.6.5",
         "echarts": "^4.2.1",
-        "element-ui": "^2.4.5",
+        "element-ui": "^2.13.2",
         "lodash": "^4.17.11",
         "moment": "^2.24.0",
         "qs": "^6.7.0",

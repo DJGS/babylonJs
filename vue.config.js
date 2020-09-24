@@ -45,17 +45,4 @@ module.exports = {
             ]);
         }
     },
-    baseUrl: '/',
-    devServer: {
-        proxy: {
-            '/cyberange': {
-                target: 'http://10.11.24.70:9003',
-                changeOrigin: true,
-                ws: true,
-                pathRewrite: {
-                    '^/cyberange': '/cyberange',
-                },
-            },
-        },
-    },
 };
