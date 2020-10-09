@@ -18,6 +18,10 @@ const routes = [
         component: () => import('@pages/init'),
     },
     {
+        path: '/shape',
+        component: () => import('@pages/shape'),
+    },
+    {
         path: '/demo',
         component: () => import('@pages/demo'),
     },
