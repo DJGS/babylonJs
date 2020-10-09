@@ -1,6 +1,9 @@
 <template>
     <div class="home">
         <div class="demo-item">
+            <router-link to="/init"> 运行babylonjs </router-link>
+        </div>
+        <div class="demo-item">
             <router-link to="/demo"> 正方体 </router-link>
         </div>
     </div>
@@ -19,8 +22,9 @@ export default {};
 
     .demo-item {
         flex: 0 0 auto;
-        width: 100px;
+        width: auto;
         height: 50px;
+        padding: 0 20px;
         margin: 10px;
         text-align: center;
         line-height: 50px;

@@ -14,6 +14,10 @@ const routes = [
         component: () => import('@pages/home'),
     },
     {
+        path: '/init',
+        component: () => import('@pages/init'),
+    },
+    {
         path: '/demo',
         component: () => import('@pages/demo'),
     },
