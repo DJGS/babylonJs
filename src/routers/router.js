@@ -22,6 +22,10 @@ const routes = [
         component: () => import('@pages/shape'),
     },
     {
+        path: '/line',
+        component: () => import('@pages/line'),
+    },
+    {
         path: '/demo',
         component: () => import('@pages/demo'),
     },
