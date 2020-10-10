@@ -34,6 +34,10 @@ const routes = [
         component: () => import('@pages/material'),
     },
     {
+        path: '/camera',
+        component: () => import('@pages/camera'),
+    },
+    {
         path: '/demo',
         component: () => import('@pages/demo'),
     },
