@@ -10,6 +10,9 @@
             <router-link to="/line"> 参数化几何体 </router-link>
         </div>
         <div class="demo-item">
+            <router-link to="/position"> 位置 </router-link>
+        </div>
+        <div class="demo-item">
             <router-link to="/demo"> 正方体 </router-link>
         </div>
     </div>

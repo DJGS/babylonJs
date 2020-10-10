@@ -26,6 +26,10 @@ const routes = [
         component: () => import('@pages/line'),
     },
     {
+        path: '/position',
+        component: () => import('@pages/position'),
+    },
+    {
         path: '/demo',
         component: () => import('@pages/demo'),
     },
