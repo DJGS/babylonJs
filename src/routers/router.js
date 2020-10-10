@@ -30,6 +30,10 @@ const routes = [
         component: () => import('@pages/position'),
     },
     {
+        path: '/material',
+        component: () => import('@pages/material'),
+    },
+    {
         path: '/demo',
         component: () => import('@pages/demo'),
     },

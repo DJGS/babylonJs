@@ -13,6 +13,9 @@
             <router-link to="/position"> 位置 </router-link>
         </div>
         <div class="demo-item">
+            <router-link to="/material"> 材质 </router-link>
+        </div>
+        <div class="demo-item">
             <router-link to="/demo"> 正方体 </router-link>
         </div>
     </div>
